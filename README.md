@@ -7,7 +7,6 @@ This project is a resident management application built with React, React Router
 - **Create resident**: Add a new resident to the list.
 - **Edit resident**: Modify the details of an existing resident.
 - **Delete resident**: Remove residents from the list.
-- **Role Assignment**: Assign roles to residents, such as Crew, Fleet Manager, TSI, and Admin.
 - **Validation**: Form validation to ensure data integrity.
 
 ## Technologies Used
