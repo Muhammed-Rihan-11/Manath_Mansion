@@ -100,4 +100,3 @@ React Toastify is used to display success and error messages for various actions
 
 ---
 
-Feel free to contribute to this project by submitting issues or pull requests. If you have any questions, please contact [yasinmanath@gmail.com].
