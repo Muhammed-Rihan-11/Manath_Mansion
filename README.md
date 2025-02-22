@@ -45,11 +45,11 @@ The app communicates with a backend server to manage resident data. It also buil
 
 ### Endpoints
 
-- `GET /resident` - Fetch all residents
-- `POST /resident` - Create a new resident
-- `GET /resident/:id` - Fetch a specific resident by ID
-- `PUT /resident/:id` - Update a specific resident by ID
-- `DELETE /resident/:id` - Delete a specific resident by ID
+- `GET /user` - Fetch all residents
+- `POST /user` - Create a new resident
+- `GET /user/:id` - Fetch a specific resident by ID
+- `PUT /user/:id` - Update a specific resident by ID
+- `DELETE /user/:id` - Delete a specific resident by ID
 
 ## Components
 
@@ -57,11 +57,11 @@ The app communicates with a backend server to manage resident data. It also buil
 
 The main component that sets up routing for the application.
 
-### `residentListing.js`
+### `UserListing.js`
 
 Displays the list of residents with options to add, edit, or delete residents.
 
-### `residentCreate.js`
+### `UserCreate.js`
 
 Form to create a new resident.
 
