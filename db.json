@@ -8,6 +8,24 @@
       "email": "anthony@gmail.com",
       "dateOfShift": "2025-02-08",
       "room": "1"
+    },
+    {
+      "id": "9a1c",
+      "name": "Amar",
+      "phone": "9876543210",
+      "address": "world",
+      "email": "amar@gmail.com",
+      "dateOfShift": "2025-02-21",
+      "room": "2"
+    },
+    {
+      "id": "0ea3",
+      "name": "Akbar ",
+      "phone": "1237894560",
+      "address": "Asia",
+      "email": "akbar@gmail.com",
+      "dateOfShift": "2025-02-24",
+      "room": "3"
     }
   ]
 }
