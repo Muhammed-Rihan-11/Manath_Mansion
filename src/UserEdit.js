@@ -15,7 +15,7 @@ const EditForm = () => {
         formState: { errors },
     } = useForm();
     useEffect(() => {
-        fetch("http://localhost:8000/user/" + userid)
+        fetch("https://manath-mansion-backend.onrender.com/user/" + userid)
             .then((res) => res.json())
             .then((resp) => {
                 setUserData(resp);
@@ -30,7 +30,7 @@ const EditForm = () => {
 
 
     const onSubmit = (data) => {
-        fetch("http://localhost:8000/user/" + userid, {
+        fetch("https://manath-mansion-backend.onrender.com/user/" + userid, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
