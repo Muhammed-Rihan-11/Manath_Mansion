@@ -11,7 +11,7 @@ const UserListing = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    fetch('http://localhost:8000/user')
+    fetch('https://manath-mansion-backend.onrender.com/user')
       .then((res) => res.json())
       .then((resp) => setUserdata(resp))
       .catch((err) => console.log(err));
