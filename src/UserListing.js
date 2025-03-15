@@ -38,7 +38,7 @@ const UserListing = () => {
       toast.error('Please select at least one user to delete.', {autoClose:2000});
     } else {
       selectedIds.forEach((id) => {
-        fetch(`http://localhost:8000/user/${id}`, {
+        fetch(`https://manath-mansion-backend.onrender.com/user/${id}`, {
           method: 'DELETE',
         })
           .then((res) => {
