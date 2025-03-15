@@ -17,7 +17,7 @@ const MyForm = () => {
   const navigate = useNavigate(); // Initialize the useNavigate hook
 
   const onSubmit = (data) => {
-    fetch('http://localhost:8000/user', {
+    fetch('https://manath-mansion-backend.onrender.com/user', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
